@@ -153,10 +153,32 @@ ul {
 	text-align: left; /* 可选：内容居中对齐 */
 }
 
+.main-text-item{
+	display: flex; /* 使用flexbox布局 */
+}
+
+.main-text-item img{
+	display: flex; /* 使用flexbox布局 */
+	width: 150px; /* 图片宽度 */
+	height: auto; /* 图片高度自动调整 */
+	margin-right: 20px; /* 图片与文本之间的间距 */
+}
+
+.main-text-item p {
+	height: auto;
+	width: 640px;
+	margin: auto;
+	font-size: 24px; /* 文本字体大小 */
+	text-align: left;
+	padding-left: 56px;
+	color: #333;
+}
+
 .stroy-item {
 	display: flex; /* 使用flexbox布局 */
 	margin: 12px;
-	margin-top: 48px;
+	margin-top: 72px;
+	margin-bottom: 72px;
 	padding: 12px;
 	text-align: left; /* 可选：内容居中对齐 */
 }
